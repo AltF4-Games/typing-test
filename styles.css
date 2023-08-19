@@ -1,0 +1,52 @@
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+body {
+    background: black;
+    color: gray;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+
+.words {
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+    font-size: 150%;
+}
+
+#center{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 25px;
+}
+
+#cursor {
+    font-size: 30px;
+    color:white;
+    margin-right:-.1em;
+    margin-left:-.1em;
+}
+
+#header{
+    text-align: center;
+    color:orange;
+}
+
+#timer {
+    margin-left:50px;
+    color:orange;
+}
+
+#result {
+    text-align: center;
+    color:orange;
+}
+
+#retry-btn {
+    width: 25px;
+    height: 25px;
+}
